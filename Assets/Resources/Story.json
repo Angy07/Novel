@@ -1,0 +1,1160 @@
+﻿{
+  "scenes": [
+    {
+      "id": 1,
+      "steps": [
+        {
+          "id": 1,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Человек?",
+          "type": "skip",
+          "nextStepId": 2,
+          "variants": []
+        },
+        {
+          "id": 2,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Что делает человек в таком месте?",
+          "type": "skip",
+          "nextStepId": 3,
+          "variants": []
+        },
+        {
+          "id": 3,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Кто ты? Можешь назвать свое имя?",
+          "type": "input",
+          "nextStepId": 4,
+          "variants": []
+        },
+        {
+          "id": 4,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "_, ты почти не стоишь на ногах. Держись за меня, я отведу тебя в безопасное место. Здесь оставаться нельзя.",
+          "type": "skip",
+          "nextStepId": 5,
+          "variants": []
+        },
+        {
+          "id": 5,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Ветер усиливается.",
+          "type": "skip",
+          "nextStepId": 0,
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "steps": [
+        {
+          "id": 1,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Роберт, кто этот человек?",
+          "type": "skip",
+          "nextStepId": 2,
+          "variants": []
+        },
+        {
+          "id": 2,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Парня зовут _.",
+          "type": "skip",
+          "nextStepId": 3,
+          "variants": [
+            {
+              "text": "Девушку зовут _."
+            }
+          ]
+        },
+
+        {
+          "id": 3,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Мы встретились недалеко от колонии номер 5. Вернее, возле того что от нее осталось.",
+          "type": "skip",
+          "nextStepId": 4,
+          "variants": []
+        },
+
+        {
+          "id": 4,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Я Джеймс. Рад что ты теперь с нами. Одному тебе пришлось бы тяжело.",
+          "type": "skip",
+          "nextStepId": 5,
+          "variants": [
+            {
+              "text": "Я Джеймс. Рад что ты теперь с нами. Одной тебе пришлось бы тяжело."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Меня зовут Марк. Возможно там еще есть люди.",
+          "type": "skip",
+          "nextStepId": 6,
+          "variants": []
+        },
+        {
+          "id": 6,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Сомневаюсь. Все погибли.",
+          "type": "skip",
+          "nextStepId": 7,
+          "variants": []
+        },
+        {
+          "id": 7,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Зацепок тоже не осталось. Скорее всего вся полезная информация под завалами. Думаю, что, взрыв сделал кто-то, кто был внутри. Решил убить всех и таким способом спасти.",
+          "type": "skip",
+          "nextStepId": 8,
+          "variants": []
+        },
+        {
+          "id": 8,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Возможно они приняли это решение единогласно.",
+          "type": "skip",
+          "nextStepId": 9,
+          "variants": []
+        },
+        {
+          "id": 9,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Мы уже никогда не узнаем правды. В путь. Времени мало.",
+          "type": "skip",
+          "nextStepId": 10,
+          "variants": []
+        },
+
+        {
+          "id": 10,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Марк, помоги Роберту нести парня.",
+          "type": "skip",
+          "nextStepId": 11,
+          "variants": [
+            {
+              "text": "Марк, помоги Роберту нести девушку."
+            }
+          ]
+        },
+
+        {
+          "id": 11,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Я буду идти вперед, следуйте за мной.",
+          "type": "skip",
+          "nextStepId": 12,
+          "variants": []
+        },
+        {
+          "id": 12,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Что за ужасное место, но выбора нет. Это наша последняя надежда или сегодня, или никогда. Мы должны добраться туда иначе больше не сможем радоваться солнцу и погрузимся в вечную тьму.",
+          "type": "skip",
+          "nextStepId": 0,
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "steps": [
+        {
+          "id": 1,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Давайте остановимся здесь.",
+          "type": "skip",
+          "nextStepId": 2,
+          "variants": []
+        },
+        {
+          "id": 2,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Хорошо что нам попался этот заброшенный дом, мы сможем здесь передохнуть и набраться сил.",
+          "type": "skip",
+          "nextStepId": 3,
+          "variants": []
+        },
+        {
+          "id": 3,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Выдвигаемся через пару часов.",
+          "type": "skip",
+          "nextStepId": 4,
+          "variants": []
+        },
+        {
+          "id": 4,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Человечество и представить не могло что сможет контролировать погоду. Кто мог подумать, что механизм выйдет из строя и небо затянется тучами, которые не будут пропускать солнечные лучи.",
+          "type": "skip",
+          "nextStepId": 5,
+          "variants": []
+        },
+        {
+          "id": 5,
+          "character": "mark",
+          "name": "Марк",
+          "text": "И все же нам повезло, ведь мы научились жить в таких суровых условиях.",
+          "type": "skip",
+          "nextStepId": 6,
+          "variants": []
+        },
+        {
+          "id": 6,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Научились? В нашем городе было 5 колоний. 4 из них включая нашу полностью разрушены, из выживших остались только мы трое и _. Одна надежда на колонию номер 3.",
+          "type": "skip",
+          "nextStepId": 7,
+          "variants": []
+        },
+        {
+          "id": 7,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Будем надеяться, что они получили координаты места где люди смогли увидеть солнечные лучи.",
+          "type": "skip",
+          "nextStepId": 8,
+          "variants": []
+        },
+        {
+          "id": 8,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Но что же означают их сигналы тревоги?",
+          "type": "skip",
+          "nextStepId": 9,
+          "variants": []
+        },
+        {
+          "id": 9,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Кто знает, надо готовиться ко всему.",
+          "type": "skip",
+          "nextStepId": 10,
+          "variants": []
+        },
+        {
+          "id": 10,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Пора в дорогу.  _, посмотри, что полезного в том углу, возьми этот рюкзак и положи туда что вместится. Он конечно маленький, но нам пригодиться все.",
+          "type": "select",
+          "nextStepId": 11,
+          "variants": [
+            {
+              "text": "Пора в дорогу.  _, посмотри, что полезного в том углу, возьми эту маленькую сумку и положи туда что вместится. Нам пригодиться все."
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Все готовы. Выдвигаемся.",
+          "type": "skip",
+          "nextStepId": 0,
+          "variants": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "steps": [
+        {
+          "id": 1,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Вот мы и пришли.",
+          "type": "skip",
+          "nextStepId": 2,
+          "variants": []
+        },
+        {
+          "id": 2,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Заходим аккуратно по одному.",
+          "type": "skip",
+          "nextStepId": 3,
+          "variants": []
+        },
+        {
+          "id": 3,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Здесь подозрительно тихо.",
+          "type": "skip",
+          "nextStepId": 4,
+          "variants": []
+        },
+        {
+          "id": 4,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Слышите шум? Он идет с той комнаты.",
+          "type": "skip",
+          "nextStepId": 5,
+          "variants": []
+        },
+        {
+          "id": 5,
+          "character": "gregory",
+          "name": "Грегори",
+          "text": "Нет! Не трогайте меня.",
+          "type": "skip",
+          "nextStepId": 6,
+          "variants": []
+        },
+        {
+          "id": 6,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Успокойся, мы не будем тебя трогать. Как тебя зовут?  Мы из колонии номер 2 пришли на помощь получив ваш сигнал. Что у вас произошло?",
+          "type": "skip",
+          "nextStepId": 7,
+          "variants": []
+        },
+        {
+          "id": 7,
+          "character": "gregory",
+          "name": "Грегори",
+          "text": "Я Грегори. Они напали на нас. Они здесь. Они забрали координаты солнца и жизнь всех, кто был в нашей колонии.",
+          "type": "skip",
+          "nextStepId": 8,
+          "variants": []
+        },
+        {
+          "id": 8,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Кто они?",
+          "type": "skip",
+          "nextStepId": 9,
+          "variants": []
+        },
+        {
+          "id": 9,
+          "character": "gregory",
+          "name": "Грегори",
+          "text": "Выйдете отсюда и узнаете.",
+          "type": "skip",
+          "nextStepId": 10,
+          "variants": []
+        },
+        {
+          "id": 10,
+          "character": "mark",
+          "name": "Марк",
+          "text": "А ты не пойдешь с нами?",
+          "type": "skip",
+          "nextStepId": 11,
+          "variants": []
+        },
+        {
+          "id": 11,
+          "character": "gregory",
+          "name": "Грегори",
+          "text": "Нет, я буду здесь. Здесь безопасно.",
+          "type": "skip",
+          "nextStepId": 12,
+          "variants": []
+        },
+        {
+          "id": 12,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Скажи нам координаты солнца. Вы получили их?",
+          "type": "skip",
+          "nextStepId": 13,
+          "variants": []
+        },
+        {
+          "id": 13,
+          "character": "gregory",
+          "name": "Грегори",
+          "text": "Да, вот они. Я выцарапал их не стене по памяти, после того как они все уничтожили.",
+          "type": "skip",
+          "nextStepId": 14,
+          "variants": [
+            {
+              "text": "Да, вот они. Только некоторые цифры размылись из-за того, что бумага намокла, но я их запомнил 768."
+            }
+          ]
+
+        },
+        {
+          "id": 14,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "А куда мы их запишем?",
+          "type": "skip",
+          "nextStepId": -1,
+          "variants": [
+            {
+              "text": "Можешь их продиктовать? У нас есть чем записать? ",
+              "itemTrigger": {
+                "itemId": [ 4 ],
+                "nextStepId": 20,
+                "triggerVariants": {
+                  "nextStepId": 21
+                }
+              }
+
+            }
+          ],
+          "itemTrigger": {
+            "itemId": [ 1 ],
+            "nextStepId": 15,
+            "triggerVariants": {
+              "nextStepId": 16
+            }
+          }
+        },
+        {
+          "id": 15,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "У нас есть ручка и тетрадь, которые взял _ в нее и запишем.",
+          "type": "skip",
+          "nextStepId": 26,
+          "variants": []
+        },
+        {
+          "id": 16,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Цифр слишком много, можем не запомнить. Роберт, возьми свой маленький нож и нацарапай мне на руке цифры.",
+          "type": "skip",
+          "nextStepId": 17,
+          "variants": []
+        },
+        {
+          "id": 17,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Марк, ты уверен?",
+          "type": "skip",
+          "nextStepId": 18,
+          "variants": []
+        },
+        {
+          "id": 18,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Да.",
+          "type": "skip",
+          "nextStepId": 19,
+          "variants": []
+        },
+        {
+          "id": 19,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Хорошо. Готово.",
+          "type": "skip",
+          "nextStepId": 26,
+          "variants": []
+        },
+        {
+          "id": 20,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Маркер пригодился. Теперь у нас есть координаты солнца.",
+          "type": "skip",
+          "nextStepId": 26,
+          "variants": []
+        },
+        {
+          "id": 21,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Пусть каждый запомнить цифры 768.",
+          "type": "skip",
+          "nextStepId": 22,
+          "variants": []
+        },
+        {
+          "id": 22,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Запомнил.",
+          "type": "skip",
+          "nextStepId": 23,
+          "variants": []
+        },
+        {
+          "id": 23,
+          "character": "mark",
+          "name": "Марк",
+          "text": "768.",
+          "type": "skip",
+          "nextStepId": 24,
+          "variants": []
+        },
+        {
+          "id": 24,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "_, ты запомнил?",
+          "type": "skip",
+          "nextStepId": 25,
+          "variants": [
+            {
+              "text": "_, ты запомнила?"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "character": "player",
+          "name": "",
+          "text": "Да!",
+          "type": "skip",
+          "nextStepId": 26,
+          "variants": []
+        },
+        {
+          "id": 26,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Спасибо Грегори. Ты пойдешь с нами.",
+          "type": "skip",
+          "nextStepId": 27,
+          "variants": []
+        },
+        {
+          "id": 27,
+          "character": "gregory",
+          "name": "Грегори",
+          "text": "Нет, я останусь здесь. Там они меня убьют, а здесь я в безопасности.",
+          "type": "skip",
+          "nextStepId": 28,
+          "variants": []
+        },
+        {
+          "id": 28,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Идем все вместе. Выходим по одному. Грегори выходи.",
+          "type": "skip",
+          "nextStepId": 29,
+          "variants": []
+        },
+        {
+          "id": 29,
+          "character": "gregory",
+          "name": "Грегори",
+          "text": "Нет.",
+          "type": "skip",
+          "nextStepId": 30,
+          "variants": []
+        },
+        {
+          "id": 30,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Он захлопнул дверь. Нам его не открыть.",
+          "type": "skip",
+          "nextStepId": 31,
+          "variants": []
+        },
+        {
+          "id": 31,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Тогда уходим без него.",
+          "type": "skip",
+          "nextStepId": 32,
+          "variants": []
+        },
+        {
+          "id": 32,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Что его так напугало?",
+          "type": "skip",
+          "nextStepId": 33,
+          "variants": []
+        },
+        {
+          "id": 33,
+          "character": "mark",
+          "name": "Марк",
+          "text": " Слышите звуки? Там еще есть люди. Надо проверить.",
+          "type": "skip",
+          "nextStepId": 34,
+          "variants": []
+        },
+        {
+          "id": 34,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "О нет. Уходим! Их слишком много, и они готовы атаковать любого! У нас нет огнестрельного оружия, в рукопашном бою долго не выдержим.",
+          "type": "skip",
+          "nextStepId": 35,
+          "variants": []
+        },
+        {
+          "id": 35,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Лестница! Там выход! Поднимаемся!",
+          "type": "skip",
+          "nextStepId": 36,
+          "variants": []
+        },
+        {
+          "id": 36,
+          "character": "player",
+          "name": "",
+          "text": "",
+          "type": "input",
+          "nextStepId": 37,
+          "variants": []
+        },
+        {
+          "id": 37,
+          "character": "player",
+          "name": "",
+          "text": "О нет!",
+          "type": "skip",
+          "nextStepId": -1,
+          "variants": [
+            {
+              "text": "Нужно срочно что-то предпринять!",
+              "itemTrigger": {
+                "itemId": [ 0, 0 ],
+                "nextStepId": 39,
+                "triggerVariants": {
+                  "nextStepId": 38
+                }
+              }
+            }
+          ],
+          "itemTrigger": {
+            "itemId": [ 0, 0 ],
+            "nextStepId": 39,
+            "triggerVariants": {
+              "nextStepId": 38
+            }
+          }
+
+        },
+        {
+          "id": 38,
+          "character": "player",
+          "name": "",
+          "text": "Что мне делать?",
+          "type": "skip",
+          "nextStepId": -1,
+          "variants": [
+            {
+              "text": "Сумка!",
+              "itemTrigger": {
+                "itemId": [ 0, 4 ],
+                "nextStepId": 39,
+                "triggerVariants": {
+                  "nextStepId": 40
+                }
+              }
+            }
+          ],
+          "itemTrigger": {
+            "itemId": [ 0, 1 ],
+            "nextStepId": 39,
+            "triggerVariants": {
+              "nextStepId": 40
+            }
+          }
+
+        },
+        {
+          "id": 39,
+          "character": "player",
+          "name": "GAME OVER!!!",
+          "text": "GAME OVER!!!",
+          "type": "skip",
+          "nextStepId": -1
+        },
+        {
+          "id": 40,
+          "character": "mark",
+          "name": "Марк",
+          "text": "_, они атакуют!",
+          "type": "skip",
+          "nextStepId": -1,
+          "variants": [
+            {
+              "text": "_! Берегись!",
+              "itemTrigger": {
+                "itemId": [ 6 ],
+                "nextStepId": 41,
+                "triggerVariants": {
+                  "nextStepId": 42
+                }
+              }
+            }
+          ],
+          "itemTrigger": {
+            "itemId": [ 3 ],
+            "nextStepId": 41,
+            "triggerVariants": {
+              "nextStepId": 42
+            }
+          }
+        },
+        {
+          "id": 41,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Не стой на месте, бей его топором.",
+          "type": "skip",
+          "nextStepId": -1,
+          "variants": [
+            {
+              "text": "Не стой на месте, кидай гранату.",
+              "itemTrigger": {
+                "itemId": [ 5 ],
+                "nextStepId": 51,
+                "triggerVariants": {
+                  "nextStepId": 44
+                }
+              }
+            }
+          ],
+          "itemTrigger": {
+            "itemId": [ 2 ],
+            "nextStepId": 43,
+            "triggerVariants": {
+              "nextStepId": 44
+            }
+          }
+        },
+        {
+          "id": 42,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Постарайся увернуться от ударов. Сейчас я кину в него бутылку с кислотой!",
+          "type": "skip",
+          "nextStepId": -1,
+          "variants": [
+            {
+              "text": "Изворачивайся. Сейчас я кину в него бутылку с кислотой!",
+              "itemTrigger": {
+                "itemId": [ 5 ],
+                "nextStepId": 51,
+                "triggerVariants": {
+                  "nextStepId": 44
+                }
+              }
+            }
+          ],
+          "itemTrigger": {
+            "itemId": [ 2 ],
+            "nextStepId": 43,
+            "triggerVariants": {
+              "nextStepId": 44
+            }
+          }
+        },
+        {
+          "id": 43,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Хорошо, что ты взял нож и смог отбиться от этого людоеда. Твоя рана не глубокая.",
+          "type": "skip",
+          "nextStepId": 0,
+          "variants": [
+            {
+              "text": "Хорошо, что ты владеешь гипнозом и взяла амулет."
+            }
+          ],
+          "itemTrigger": {
+            "itemId": [ 2, 3 ],
+            "nextStepId": 46,
+            "triggerVariants": {
+              "nextStepId": 47
+            }
+          }
+        },
+        {
+          "id": 44,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "_, защищайся или беги. Чего стоишь?",
+          "type": "skip",
+          "nextStepId": 45,
+          "variants": [
+            {
+              "text": "Беги быстрее!"
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Тебе повезло что я убил его раньше, чем он убил тебя. Ты ранен, но главное живой.",
+          "type": "skip",
+          "nextStepId": 0,
+          "variants": [
+            {
+              "text": "Тебе повезло, что я убил его своим ножом. Людоед не задел тебя сильно."
+            }
+          ],
+          "itemTrigger": {
+            "itemId": [ 3 ],
+            "nextStepId": 48,
+            "triggerVariants": {
+              "nextStepId": 49
+            }
+          }
+        },
+        {
+          "id": 46,
+          "character": "player",
+          "name": "",
+          "text": "",
+          "type": "input",
+          "nextStepId": 49,
+          "variants": []
+        },
+        {
+          "id": 47,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Вперед не останавливаемся!",
+          "type": "skip",
+          "nextStepId": -1,
+          "variants": [],
+          "itemTrigger": {
+            "itemId": [ 3 ],
+            "nextStepId": 48,
+            "triggerVariants": {
+              "nextStepId": 49
+            }
+          }
+        },
+        {
+          "id": 48,
+          "character": "player",
+          "name": "",
+          "text": "",
+          "type": "input",
+          "nextStepId": 49,
+          "variants": []
+        },
+        {
+          "id": 49,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Еще немного и мы выберемся отсюда!",
+          "type": "skip",
+          "nextStepId": -1,
+          "variants": [],
+          "itemTrigger": {
+            "itemId": [ 2 ],
+            "nextStepId": 50,
+            "triggerVariants": {
+              "nextStepId": 0
+            }
+          }
+        },
+        {
+          "id": 50,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Не ищи нож, идем дальше.",
+          "type": "skip",
+          "nextStepId": 0,
+          "variants": []
+        },
+        {
+          "id": 51,
+          "character": "player",
+          "name": "",
+          "text": "",
+          "type": "skip",
+          "nextStepId": 43,
+          "variants": [
+            {
+              "text": "Мгновенный гипноз!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "steps": [
+        {
+          "id": 1,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Я вижу мост! Он канатный.",
+          "type": "skip",
+          "nextStepId": 2,
+          "variants": [
+            {
+              "text": "Река!"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Перебежим на ту сторону и обрубим канаты. У нас есть топор?",
+          "type": "skip",
+          "nextStepId": -1,
+          "variants": [
+            {
+              "text": "Вижу лодку. Нам понадобиться время чтоб дотащить ее до воды.",
+              "itemTrigger": {
+                "itemId": [ 5 ],
+                "nextStepId": 13,
+                "triggerVariants": {
+                  "nextStepId": 18
+                }
+              }
+            }
+          ],
+          "itemTrigger": {
+            "itemId": [ 3 ],
+            "nextStepId": 3,
+            "triggerVariants": {
+              "nextStepId": 8
+            }
+          }
+        },
+        {
+          "id": 3,
+          "character": "mark",
+          "name": "Марк",
+          "text": "_, руби канаты.",
+          "type": "skip",
+          "nextStepId": 4,
+          "variants": []
+        },
+        {
+          "id": 4,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Теперь они не пройдут дальше. Концы обрублены.",
+          "type": "skip",
+          "nextStepId": 5,
+          "variants": []
+        },
+        {
+          "id": 5,
+          "character": "mark",
+          "name": "Марк",
+          "text": "У нас есть координаты колонии где люди смогли увидеть солнце и теперь мы сможем добраться туда.",
+          "type": "skip",
+          "nextStepId": 6,
+          "variants": []
+        },
+        {
+          "id": 6,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Перевяжем тебе рану и в путь.",
+          "type": "skip",
+          "nextStepId": 7,
+          "variants": []
+        },
+        {
+          "id": 7,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Впереди долгая дорога.",
+          "type": "skip",
+          "nextStepId": 123,
+          "variants": []
+        },
+        {
+          "id": 8,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Я кину динамит и подорву мост.",
+          "type": "skip",
+          "nextStepId": 9,
+          "variants": []
+        },
+        {
+          "id": 9,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Шнур отсырел. Будет сложно.",
+          "type": "skip",
+          "nextStepId": 10,
+          "variants": []
+        },
+        {
+          "id": 10,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "Я справлюсь. Бегите.",
+          "type": "skip",
+          "nextStepId": 11,
+          "variants": []
+        },
+        {
+          "id": 11,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "Теперь они не пройдут дальше. Жертва Джеймса не была напрасна. У нас есть координаты мы справимся.",
+          "type": "skip",
+          "nextStepId": 12,
+          "variants": []
+        },
+        {
+          "id": 12,
+          "character": "mark",
+          "name": "Марк",
+          "text": "Перевяжем тебе рану и в путь.",
+          "type": "skip",
+          "nextStepId": 123,
+          "variants": []
+        },
+        {
+          "id": 13,
+          "character": "mark",
+          "name": "Марк",
+          "text": "",
+          "type": "input",
+          "nextStepId": 14,
+          "variants": [
+            {
+              "text": "Задержи их силой гипноза иначе мы погибнем."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "character": "player",
+          "name": "",
+          "text": "",
+          "type": "input",
+          "nextStepId": 15,
+          "variants": []
+        },
+        {
+          "id": 15,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "",
+          "type": "skip",
+          "nextStepId": -1,
+          "variants": [
+            {
+              "text": "Они догоняют!",
+              "itemTrigger": {
+                "itemId": [ 5 ],
+                "nextStepId": 16,
+                "triggerVariants": {
+                  "nextStepId": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "",
+          "type": "skip",
+          "nextStepId": 17,
+          "variants": [
+            {
+              "text": "Спасибо тебе, ты спасла нас всех."
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "",
+          "type": "skip",
+          "nextStepId": 123,
+          "variants": [
+            {
+              "text": "Теперь мы успеем переплыть реку и найдем место которое указано в наших координатах."
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "character": "robert",
+          "name": "Роберт",
+          "text": "",
+          "type": "skip",
+          "nextStepId": 19,
+          "variants": [
+            {
+              "text": "_, Марк и Джеймс садитесь в лодку я их задержу."
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "character": "james",
+          "name": "Джеймс",
+          "text": "",
+          "type": "skip",
+          "nextStepId": 20,
+          "variants": [
+            {
+              "text": "Я останусь с тобой. Ребята поспешите."
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "character": "mark",
+          "name": "Марк",
+          "text": "",
+          "type": "skip",
+          "nextStepId": 123,
+          "variants": [
+            {
+              "text": "_, поплыли."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

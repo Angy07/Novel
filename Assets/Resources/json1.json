@@ -1,0 +1,45 @@
+﻿{
+  "scene1": 
+  {
+    "characters": 
+    {
+      "robert": 
+      {
+        "name": "Роберт",
+        "replics": {
+          "1appear": [
+            "Человек?",
+            "Что делает человек в таком месте?",
+            "Кто ты? Можешь назвать свое имя?",
+            "Ты почти не стоишь на ногах. Держись за меня, я отведу тебя в безопасное место. Здесь оставаться нельзя.",
+            "Ветер усиливается."
+          ],
+          "2appear": [
+            "2appear First line",
+            "2appear Second line",
+            "2appear Third line"
+          ]
+        }
+      },
+      "john": 
+      {
+        "name": "John",
+        "replics": {
+          "1appear": [
+            "1appear First line"
+          ],
+          "2appear": [
+            "2appear First line",
+            "2appear Second line",
+            "2appear Third line"
+          ],
+          "3appear": [
+            "3appear First line",
+            "3appear Second line",
+            "3appear Third line"
+          ]
+        }
+      }
+    }
+  }
+}

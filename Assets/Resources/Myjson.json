@@ -1,0 +1,23 @@
+﻿{
+  "steps": [
+    {
+      "id": 1,
+      "character": "robert",
+      "name": "Роберт",
+      "text": "Человек?",
+      "type": "skip",
+      "nextStepId": 2
+    },
+    {
+      "id": 2,
+      "character": "mark",
+      "name": "Роберт",
+      "text": "Человек?",
+      "type": "skip",
+      "nextStepId": 2
+    }
+  ]
+}
+
+
+
